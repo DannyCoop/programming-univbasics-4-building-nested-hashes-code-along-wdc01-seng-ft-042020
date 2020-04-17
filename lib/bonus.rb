@@ -19,9 +19,11 @@ def bonus
       ]
    }
   }
-
 epic[montague[hero]]
 char = epic[montague[hero]]
+char[status] = dead
+epic[capulet[heroine]]
+char_two = epic[capulet[heroine]]
 char[status] = dead
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
